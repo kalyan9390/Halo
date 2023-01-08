@@ -1,0 +1,48 @@
+kalya@LAPTOP-8VJ0O8VT MINGW64 /c/abc/test
+$ git clone https://github.com/kalyan9390/Halo.git
+Cloning into 'Halo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+kalya@LAPTOP-8VJ0O8VT MINGW64 /c/abc/test
+$ cd Halo/
+
+kalya@LAPTOP-8VJ0O8VT MINGW64 /c/abc/test/Halo (main)
+$ ls
+Halo.java  Halo1.txt
+
+kalya@LAPTOP-8VJ0O8VT MINGW64 /c/abc/test/Halo (main)
+$ git add Halo1.txt
+
+kalya@LAPTOP-8VJ0O8VT MINGW64 /c/abc/test/Halo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Halo1.txt
+
+
+kalya@LAPTOP-8VJ0O8VT MINGW64 /c/abc/test/Halo (main)
+$ git commit -m "second commit"
+[main 8f34827] second commit
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Halo1.txt
+
+kalya@LAPTOP-8VJ0O8VT MINGW64 /c/abc/test/Halo (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 244 bytes | 244.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kalyan9390/Halo.git
+   42c8ae2..8f34827  main -> main
+
+kalya@LAPTOP-8VJ0O8VT MINGW64 /c/abc/test/Halo (main)
+$
